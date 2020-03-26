@@ -44,8 +44,8 @@ a{
  #menuToggle{
     display: block;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     
     z-index: 1;
     
