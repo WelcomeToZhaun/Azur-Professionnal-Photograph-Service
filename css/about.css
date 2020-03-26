@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-size: 12em;
+    font-size: 9em;
     margin: 0;
 }
 
@@ -24,6 +24,10 @@ header .sub{
 header{
     display: flex;
     flex-wrap: wrap;
+    border-style: double;
+    width: 42em;
+    padding-left: 1em;
+    padding-right: 3em;
 }
 
 /* menu déroulant*/
