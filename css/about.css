@@ -25,9 +25,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     border-style: double;
-    width: 42em;
+    width: 50em;
     padding-left: 1em;
-    padding-right: 3em;
 }
 
 /* menu déroulant*/
@@ -72,8 +71,8 @@ a{
  #menuToggle span
  {
     display: block;
-    width: 66px;
-    height: 12px;
+    width: 40px;
+    height: 8px;
     margin-bottom: 5px;
     position: relative;
     
