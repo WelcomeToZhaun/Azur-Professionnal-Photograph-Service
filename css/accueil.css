@@ -1,8 +1,8 @@
 body{
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-    padding-left: 20%;
+   background-image: url("../images/fond_acceuil.png");
+   color: white;
+   overflow-x: hidden;
+   padding-left: 20%;
 }
 
 h1{
@@ -30,15 +30,20 @@ header{
     justify-content: center;
 }
 
+figure{
+   margin: 0;
+}
+
 /* menu déroulant PC*/
 nav{
    display: block;
-   position: absolute;
+   position: fixed;
    background-color: darkgray;
    height: 100%;
    width: 20%;
    left: 0;
    top: 0;
+
 }
 
 /* tablette */
