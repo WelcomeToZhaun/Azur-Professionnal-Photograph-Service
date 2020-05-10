@@ -1,5 +1,6 @@
 body{
    background-image: url("../images/fond_acceuil.png");
+   background-size: cover;
    color: white;
    overflow-x: hidden;
    padding-left: 20%;
@@ -38,12 +39,16 @@ figure{
 nav{
    display: block;
    position: fixed;
-   background-color: darkgray;
+   background-color: #100a57;
    height: 100%;
    width: 20%;
    left: 0;
    top: 0;
+}
 
+nav a{
+
+   color: #E60C05;
 }
 
 /* tablette */
