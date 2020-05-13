@@ -1,6 +1,7 @@
 body{
    background-image: url("../images/fond_acceuil.png");
    background-size: cover;
+   background-repeat: no-repeat;
    color: white;
    overflow-x: hidden;
    padding-left: 20%;
@@ -35,7 +36,8 @@ figure{
    margin: 0;
 }
 
-/* menu déroulant PC*/
+/* menu PC*/
+
 nav{
    display: block;
    position: fixed;
@@ -47,209 +49,6 @@ nav{
 }
 
 nav a{
-
    color: #E60C05;
 }
-
-/* tablette */
-@media(max-width:1048px){
-
-/* Titre */
-   h1{
-      font-size: 800%;
-      margin: 0;
-   }
-
-   h3{
-      margin: 0;
-      font-size: 150%;
-      display: block;
-   }
-
-   header{
-      justify-content: start;
-   }
-
-/* menu déroulant */
-   a{
-      text-decoration: none;
-      color: #232323;
-      
-      transition: color 0.3s ease;
-   }
-    
-   a:hover{
-      color: tomato;
-   }
-    
-   #menuToggle{
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      
-      z-index: 1;
-      
-      -webkit-user-select: none;
-      user-select: none;
-   }
-    
-   #menuToggle input{
-      display: block;
-      width: 50px;
-      height: 34px;
-      position: absolute;
-      top: -7px;
-      left: -5px;
-      
-      cursor: pointer;
-      
-      opacity: 0;
-      z-index: 2;
-      
-      -webkit-touch-callout: none;}
-    
-   #menuToggle span
-   {
-      display: block;
-      width: 50px;
-      height: 6px;
-      margin-bottom: 8px;
-      position: relative;
-      
-      background: #cdcdcd;
-      border-radius: 3px;
-      
-      z-index: 1;
-      
-      transform-origin: 4px 0px;
-      
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  opacity 0.55s ease;
-   }
-    
-   #menuToggle span:first-child{
-      transform-origin: 0% 0%;
-   }
-    
-   #menuToggle span:nth-last-child(2)
-   {
-      transform-origin: 0% 100%;
-   }
-    
-   #menuToggle input:checked ~ span
-   {
-      opacity: 1;
-      transform: rotate(45deg) translate(-2px, -1px);
-      background: #232323;
-   }
-    
-   #menuToggle input:checked ~ span:nth-last-child(3){
-      opacity: 0;
-      transform: rotate(0deg) scale(0.2, 0.2);
-   }
-    
-   #menuToggle input:checked ~ span:nth-last-child(2){
-      opacity: 1;
-      transform: rotate(-45deg) translate(0, -1px);
-   }
-   
-   #menu{
-      position: absolute;
-      width: 200px;
-      margin: -100px 0 0 0;
-      padding: 50px;
-      padding-top: 125px;
-      right: -100px;
-      
-      background: #ededed;
-      list-style-type: none;
-      -webkit-font-smoothing: antialiased;
-      
-      transform-origin: 0% 0%;
-      transform: translate(100%, 0);
-      
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
-    
-    #menu li{
-      padding: 10px 0;
-      font-size: 22px;
-      padding-left: 15px;
-   }
-   
-    #menuToggle input:checked ~ ul{
-      transform: scale(1.0, 1.0);
-      opacity: 1;
-   }
-}
-
-/* moins que tablette */
-@media(max-width:800px){
-
-/* Titre */
-   h1{
-      font-size: 800%;
-      margin: 0;
-  }
-  
-  h3{
-      margin: 0;
-      font-size: 200%;
-      display: block;
-  }
-
-  header{
-     justify-self: start;
-  }
-
-/* Menu déroulant*/
-  #menuToggle{
-   display: block;
-   position: absolute;
-   top: 20px;
-   right: 10px;
-   
-   z-index: 1;
-   
-   -webkit-user-select: none;
-   user-select: none;
-}
- 
-#menuToggle input{
-   display: block;
-   width: 100px;
-   height: 45px;
-   position: absolute;
-   top: -7px;
-   left: -5px;
-   
-   cursor: pointer;
-   
-   opacity: 0;
-   z-index: 2;
-   
-   -webkit-touch-callout: none;}
- 
-#menuToggle span
-{
-   display: block;
-   width: 100px;
-   height: 12px;
-   margin-bottom: 15px;
-   position: relative;
-   
-   background: #cdcdcd;
-   border-radius: 3px;
-   
-   z-index: 1;
-   
-   transform-origin: 4px 0px;
-   
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-               opacity 0.55s ease;
-}
-}
-
 
