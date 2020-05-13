@@ -1,10 +1,10 @@
 body{
-   background-image: url("../images/fond_acceuil.png");
+   background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
    color: white;
    overflow-x: hidden;
-   padding-left: 20%;
+   overflow-y: hidden;
 }
 
 h1{
@@ -49,6 +49,150 @@ nav{
 }
 
 nav a{
-   color: #E60C05;
+   color: rgb(209, 18, 56);
+   text-decoration: none;
+   font-size: 3em;
 }
 
+
+nav ul{
+   list-style: none;
+}
+
+figure{
+   display: block;
+   position: absolute;
+   top: 5%;
+   right: 23%;
+   z-index: -1;
+}
+
+@media(max-width:1560px){
+
+   nav{
+      height: 10%;
+      width: 100%;
+      bottom: 0%;
+      top: auto;
+      display: flex;
+      align-items: center;
+   }
+
+   nav ul{
+      display: flex;
+   }
+
+   figure img{
+      width: 150%;
+   }
+   
+   figure{
+      top: 10%;
+      right: 41%;
+   }
+
+}
+
+@media(max-width:1350px){
+
+   figure{
+      width: 80%;
+   }
+
+}
+
+@media(max-width:900px){
+
+   figure{
+      width: 95%;
+      right: 37%;
+   }
+
+   h1{
+      font-size: 1000%;
+   }
+
+   h3{
+      font-size: 180%;
+   }
+
+}
+
+@media(max-width:800px){
+
+   figure{
+      width: 110%;
+      right: 35%;
+   }
+
+   h1{
+      font-size: 900%;
+   }
+
+   h3{
+      font-size: 160%;
+   }
+
+}
+
+@media(max-width:700px){
+
+   figure{
+      width: 120%;
+      right: 33%;
+   }
+
+   h1{
+      font-size: 800%;
+   }
+
+   h3{
+      font-size: 150%;
+   }
+
+}
+
+@media(max-width:600px){
+
+   figure{
+      width: 140%;
+      right: 27%;
+   }
+
+   h1{
+      font-size: 700%;
+   }
+
+   h3{
+      font-size: 130%;
+   }
+
+}
+
+@media(max-width:500px){
+
+   nav{
+      height: 5%;
+      bottom: 55%;
+   }
+
+   h1{
+      font-size: 500%;  
+   }
+
+   h3{
+      font-size: 120%;
+      margin: -3px 0;
+   }
+
+   header .sub{
+      margin-top: 5px;
+   }
+
+   figure{
+      width: 100%;
+      top: 0;
+      right: 35%;
+   }
+
+}
