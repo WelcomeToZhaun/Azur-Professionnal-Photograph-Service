@@ -1,9 +1,12 @@
+@font-face {font-family: "pol";src: url('../pol.ttf'); }
+
 body{
     background-color: black;
     color: white;
     overflow-x: hidden;
     padding-left: 20%;
     margin-bottom: 100px;
+    font-family: "pol", "Trebuchet MS", Arial, Helvetica, sans-serif;
  }
  
  a:hover{
