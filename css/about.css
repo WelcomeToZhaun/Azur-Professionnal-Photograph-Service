@@ -272,9 +272,15 @@ nav ul{
 
 }
 
+@media(max-width:1450px){
+   .p1Nom{
+      left: 15%;
+   }
+}
+
 @media(max-width:1350px){
    .p1Nom{
-      left: 22%;
+      left: 15%;
    }
 
    .p2Nom{
