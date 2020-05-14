@@ -302,6 +302,10 @@ nav ul{
       text-align: justify;
    }
 
+   .here2{
+      color: white;
+   }
+
    .contentp1:hover .p1Nom{
       display: block;
    }
