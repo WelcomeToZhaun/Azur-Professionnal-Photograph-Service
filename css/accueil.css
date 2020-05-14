@@ -7,6 +7,10 @@ body{
    overflow-y: hidden;
 }
 
+a:hover{
+   text-decoration: underline;
+}
+
 h1{
     font-size: 1200%;
     margin: 0;
@@ -46,6 +50,7 @@ nav{
    width: 20%;
    left: 0;
    top: 0;
+   text-align: center;
 }
 
 nav a{
@@ -59,12 +64,48 @@ nav ul{
    list-style: none;
 }
 
+.menu{
+   margin-left: 0;
+   padding-left: 0;
+}
+
+.homebut{
+   margin: 30px 0;
+   margin-top: 100px;
+}
+
+.aboutbut{
+   margin: 30px 0;
+}
+
+.gallerybut{
+   margin-top: 30px;
+}
+
+
 figure{
    display: block;
    position: absolute;
    top: 5%;
    right: 23%;
    z-index: -1;
+}
+
+.logos{
+   position: relative;
+   top: 20%;
+   padding-left: 20px;
+}
+
+.logos li{
+   margin: 25px 0;
+   display: flex;
+}
+
+.pseudo{
+   font-size: 200%;
+   padding-top: 20px;
+   margin-left: 10px;
 }
 
 @media(max-width:1560px){
@@ -91,12 +132,111 @@ figure{
       right: 41%;
    }
 
+   .homebut{
+      margin: 0 20px;
+   }
+   
+   .aboutbut{
+      margin: 0 20px;
+   }
+   
+   .gallerybut{
+      margin-left: 20px;
+      margin-top: 0;
+   }
+
+   .logos{
+      position: relative;
+      top: auto;
+      left: 30px;
+   }
+   
+   .logos li{
+      margin: 0;
+      display: flex;
+      align-items: center;
+      margin: 0 10px;
+   }
+   
+   .pseudo{
+      font-size: 200%;
+      padding-top: 0;
+      margin-left: 0;
+   }
+
 }
 
 @media(max-width:1350px){
 
    figure{
       width: 80%;
+   }
+
+   .pseudo{
+      display: none;
+   }
+
+   .logos{
+      left: 15%;
+   }
+
+   .homebut{
+      margin-left: 100px;
+      margin-right: 60px;
+   }
+
+   .aboutbut{
+      margin: 0 60px;
+   }
+
+   .gallerybut{
+      margin-left: 60px;
+   }
+
+}
+
+@media(max-width:1200px){
+
+   .homebut{
+      margin-left: 80px;
+      margin-right: 30px;
+   }
+
+   .aboutbut{
+      margin: 0 30px;
+   }
+
+   .gallerybut{
+      margin-left: 30px;
+   }
+
+}
+
+@media(max-width:1050px){
+
+   .homebut{
+      margin-left: 60px;
+      margin-right: 20px;
+   }
+
+   .aboutbut{
+      margin: 0 20px;
+   }
+
+   .gallerybut{
+      margin-left: 20px;
+   }
+
+}
+
+@media(max-width:970px){
+
+   .homebut{
+      margin-left: 40px;
+   }
+
+   .logos{
+      left: 10%;
    }
 
 }
@@ -116,6 +256,23 @@ figure{
       font-size: 180%;
    }
 
+   .homebut{
+      margin-left: 20px;
+      margin-right: 10px;
+   }
+
+   .aboutbut{
+      margin: 0 10px;
+   }
+
+   .gallerybut{
+      margin-left: 10px;
+   }
+
+   .logos{
+      left: 5%;
+   }
+
 }
 
 @media(max-width:800px){
@@ -131,6 +288,27 @@ figure{
 
    h3{
       font-size: 160%;
+   }
+
+   .menu{
+      margin: auto;
+   }
+
+   .homebut{
+      margin-left: 0;
+      margin-right: 40px;
+   }
+
+   .aboutbut{
+      margin: 0 40px;
+   }
+
+   .gallerybut{
+      margin-left: 40px;
+   }
+
+   .logos{
+      display: none;
    }
 
 }
@@ -165,6 +343,18 @@ figure{
 
    h3{
       font-size: 130%;
+   }
+
+   .homebut{
+      margin-right: 10px;
+   }
+
+   .aboutbut{
+      margin: 0 10px;
+   }
+
+   .gallerybut{
+      margin-left: 10px;
    }
 
 }
