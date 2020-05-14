@@ -35,7 +35,7 @@ header{
 nav{
    display: block;
    position: fixed;
-   background-color: #100a57;
+   background: linear-gradient(90deg, rgb(32, 32, 32), black);
    height: 100%;
    width: 20%;
    left: 0;
@@ -44,11 +44,10 @@ nav{
 }
 
 nav a{
-   color: rgb(209, 18, 56);
+   color: #9C6800;
    text-decoration: none;
    font-size: 3em;
 }
-
 
 nav ul{
    list-style: none;
@@ -156,6 +155,7 @@ nav ul{
       top: auto;
       display: flex;
       align-items: center;
+      background: linear-gradient(black, rgb(32, 32, 32));
    }
 
    nav ul{
