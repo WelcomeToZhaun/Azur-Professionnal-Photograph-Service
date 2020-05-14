@@ -562,6 +562,18 @@ nav ul{
    }
 }
 
+@media(max-width:528px){
+   .p1Nom{
+      top: 25%;
+      left: 21%;
+   }
+   
+   .p2Nom{
+      left: 16%;
+      top: 87%;
+   }
+}
+
 
 @media(max-width:500px){
 
