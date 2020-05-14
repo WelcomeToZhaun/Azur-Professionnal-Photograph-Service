@@ -202,7 +202,6 @@ body{
     }
     
     .logos li{
-       margin: 0;
        display: flex;
        align-items: center;
        margin: 0 10px;
@@ -321,6 +320,31 @@ body{
     }
  
  }
+
+ @media(max-width:915px){
+   
+   .logos{
+      display: none;
+   }
+
+   .menu{
+      margin: auto;
+   }
+
+   .homebut{
+      margin-left: 0;
+      margin-right: 40px;
+   }
+
+   .aboutbut{
+      margin: 0 40px;
+   }
+
+   .gallerybut{
+      margin-left: 40px;
+   }
+
+}
  
  @media(max-width:900px){
  
@@ -356,27 +380,6 @@ body{
  
     .p2Nom{
        top: 45%;
-    }
- 
-    .menu{
-       margin: auto;
-    }
- 
-    .homebut{
-       margin-left: 0;
-       margin-right: 40px;
-    }
- 
-    .aboutbut{
-       margin: 0 40px;
-    }
- 
-    .gallerybut{
-       margin-left: 40px;
-    }
- 
-    .logos{
-       display: none;
     }
  
  }

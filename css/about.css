@@ -396,6 +396,31 @@ nav ul{
 
 }
 
+@media(max-width:915px){
+   
+   .logos{
+      display: none;
+   }
+
+   .menu{
+      margin: auto;
+   }
+
+   .homebut{
+      margin-left: 0;
+      margin-right: 40px;
+   }
+
+   .aboutbut{
+      margin: 0 40px;
+   }
+
+   .gallerybut{
+      margin-left: 40px;
+   }
+
+}
+
 @media(max-width:900px){
 
    h1{
@@ -430,27 +455,6 @@ nav ul{
 
    .p2Nom{
       top: 80%;
-   }
-
-   .menu{
-      margin: auto;
-   }
-
-   .homebut{
-      margin-left: 0;
-      margin-right: 40px;
-   }
-
-   .aboutbut{
-      margin: 0 40px;
-   }
-
-   .gallerybut{
-      margin-left: 40px;
-   }
-
-   .logos{
-      display: none;
    }
 
 }
