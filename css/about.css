@@ -303,7 +303,7 @@ nav ul{
    }
 
    .here2{
-      color: white;
+      color: #9C6800;
    }
 
    .contentp1:hover .p1Nom{
@@ -552,13 +552,13 @@ nav ul{
 
 @media(max-width:529px){
    .p1Nom{
-      top: 25%;
+      top: 15%;
       left: 21%;
    }
    
    .p2Nom{
       left: 16%;
-      top: 90%;
+      top: 80%;
    }
 }
 
