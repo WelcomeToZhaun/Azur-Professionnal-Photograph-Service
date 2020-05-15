@@ -113,7 +113,7 @@ nav ul{
    font-size: 900%;
    position: absolute;
    left: 32%;
-   top: 20%;
+   top: 10%;
 }
 
 .contentp1:hover .p1Nom{
@@ -166,6 +166,12 @@ nav ul{
    margin-left: 40px;
    margin-right: 50px;
    margin-top: 5px;
+}
+
+@media(max-width:1980){
+   .p1Nom{
+      top: 20%;
+   }
 }
 
 @media(max-width:1680px){
